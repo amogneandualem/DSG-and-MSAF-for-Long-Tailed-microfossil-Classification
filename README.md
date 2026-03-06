@@ -41,6 +41,7 @@ Install the required packages:
 
 ```bash
 pip install -r requirements.txt
+---
 Main dependencies:
 
 Python 3.9+
@@ -61,7 +62,7 @@ scikit-learn
 
 tqdm
 
-jupyter (for the notebook)
+Jupyter (for the notebook)
 
 A GPU with at least 24 GB memory is recommended for training and synthetic image generation.
 
