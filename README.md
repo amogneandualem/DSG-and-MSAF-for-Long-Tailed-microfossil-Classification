@@ -65,12 +65,12 @@ jupyter (for the notebook)
 
 A GPU with at least 24 GB memory is recommended for training and synthetic image generation.
 
-🚀 Usage
+## 🚀 Usage
 1. Synthetic Image Generation
 Run the FLUX generation script:
 
 bash
-cd "Data processing and Clip model validation"
+cd "Data processing and Clip model validation."
 python flux_A800_final.py
 What this script does:
 
@@ -86,7 +86,7 @@ Saves raw synthetic images to an output folder.
 Open and run the Jupyter notebook:
 
 bash
-cd "Data processing and Clip model validation"
+cd "Data processing and Clip model validation."
 jupyter notebook clip_evaluation.ipynb
 The notebook:
 
@@ -94,13 +94,13 @@ Computes text‑to‑image similarity (with class prompts) and image‑to‑imag
 
 Retains only images that pass both thresholds (≥0.85 and ≥0.80 by default).
 
-Moves accepted images to a curated folder for training.
+Moves accepted images to a curated training folder.
 
 3. Training with DSG and MSAF
 Train the DINOv3 backbone with MSAF and DSG:
 
 bash
-cd "Model Tranining/DINOV3/MSAF_DSG_FINAL"
+cd "Model Training/DINOV3/MSAF_DSG_FINAL."
 python train_dinov3_msaf_dsg_final.py
 Key features:
 
