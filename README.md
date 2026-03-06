@@ -139,7 +139,8 @@ If you find this code useful for your research, please cite our paper:
 ```
 bibtex
 @article{ayalew2025decaying,
-  title={Decaying Synthetic Guidance and Multi-Scale Adaptive Fusion for Long-Tailed Microfossil Classification},
+  title={
+  Decaying Synthetic Guidance and Multi-Scale Adaptive Fusion for Long-Tailed Microfossil Classification},
   author={Ayalew, Amogne Andualem and Shawon, MD Yahia and Arsalan, Muhammad and Zhang, Zhengde and Qi, Fazhi},
   journal={Engineering Applications of Artificial Intelligence},
   year={2025},
@@ -152,7 +153,7 @@ This project is licensed under the MIT License – see the LICENSE file for deta
 ##🙏 Acknowledgments
 This work was supported by the UCAS‑IHEP Computing Center and the High Energy Physics Artificial Intelligence platform (HepAI). We thank all contributors for providing computational resources and technical support.
 
-##📬 Contact
+##📬Contact
 For questions or issues, please open an issue on GitHub or contact:
 
 Amogne Andualem Ayalew – amogneandualem@gmail.com
