@@ -22,6 +22,7 @@ Our framework achieves up to **94.6% accuracy** on a radiolarian microfossil dat
 ---
 
 ## 🗂️ Repository Structure
+```
 .
 ├── Data processing and Clip model validation/
 │ ├── flux_A800_final.py # FLUX-based synthetic image generation
@@ -32,6 +33,7 @@ Our framework achieves up to **94.6% accuracy** on a radiolarian microfossil dat
 │ └── train_dinov3_msaf_dsg_final.py # DINOv3 training with MSAF & DSG
 ├── requirements.txt # Python dependencies
 └── README.md # This file
+```
 
 ---
 
