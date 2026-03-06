@@ -136,7 +136,8 @@ Logs and checkpoints are saved to logs/ and saved_models/ (excluded from Git).
 
 If you find this code useful for your research, please cite our paper:
 
-```bibtex
+```
+bibtex
 @article{ayalew2025decaying,
   title={Decaying Synthetic Guidance and Multi-Scale Adaptive Fusion for Long-Tailed Microfossil Classification},
   author={Ayalew, Amogne Andualem and Shawon, MD Yahia and Arsalan, Muhammad and Zhang, Zhengde and Qi, Fazhi},
@@ -144,7 +145,8 @@ If you find this code useful for your research, please cite our paper:
   year={2025},
   note={submitted}
 }
-📄 License
+```
+##📄 License
 This project is licensed under the MIT License – see the LICENSE file for details.
 
 ##🙏 Acknowledgments
