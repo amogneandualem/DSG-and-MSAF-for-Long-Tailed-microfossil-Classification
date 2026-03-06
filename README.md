@@ -147,16 +147,6 @@ If you find this code useful for your research, please cite our paper:
 📄 License
 This project is licensed under the MIT License – see the LICENSE file for details.
 
-text
-
-**Key fixes:**
-- Added `## 📊 Results` with a space after `##`.
-- Formatted the table correctly with `|` pipes.
-- Added proper spacing between sections.
-- Kept the BibTeX inside a fenced code block with ` ```bibtex `.
-
-Replace your current **Results**, **Citation**, and **License** sections with the above. After saving and pushing, they will display correctly on GitHub.
-
 ##🙏 Acknowledgments
 This work was supported by the UCAS‑IHEP Computing Center and the High Energy Physics Artificial Intelligence platform (HepAI). We thank all contributors for providing computational resources and technical support.
 
