@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+venv_dinov3/
+.env/
+
+# Data
+All dataset/
+before data generation/
+Split_dataset/
+*.csv
+*.h5
+*.hdf5
+*.npz
+
+# Logs and outputs
+logs/
+saved_models/
+Evaluation_Results/
+*.log
+*.out
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter notebooks (uncomment if you don't want to keep any .ipynb)
+# *.ipynb
