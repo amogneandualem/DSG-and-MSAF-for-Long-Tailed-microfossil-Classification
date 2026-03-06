@@ -43,7 +43,7 @@ Install the required packages:
 
 ```bash
 pip install -r requirements.txt
----
+```
 Main dependencies:
 
 Python 3.9+
