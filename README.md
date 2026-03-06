@@ -118,7 +118,8 @@ Mini‑batches contain 50% real and 50% curated synthetic images.
 
 Logs and checkpoints are saved to logs/ and saved_models/ (excluded from Git).
 
-##📊 Results
+##Results
+
 Backbone	Real‑Only	Naïve Mixing	DSG (Ours)
 ConvNeXtV2	90.2%	91.4%	92.1%
 DINOv3 + MSAF	91.6%	93.2%	94.6%
