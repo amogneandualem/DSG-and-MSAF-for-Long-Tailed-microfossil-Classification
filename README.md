@@ -71,6 +71,7 @@ A GPU with at least 24 GB memory is recommended for training and synthetic image
 ## 🚀 Usage
 1. Synthetic Image Generation
 Run the FLUX generation script:
+
 ```
 cd "Data processing and Clip model validation."
 python flux_A800_final.py
@@ -118,20 +119,24 @@ Mini‑batches contain 50% real and 50% curated synthetic images.
 
 Logs and checkpoints are saved to logs/ and saved_models/ (excluded from Git).
 
-##Results
+## 📊 Results
 
-Backbone	Real‑Only	Naïve Mixing	DSG (Ours)
-ConvNeXtV2	90.2%	91.4%	92.1%
-DINOv3 + MSAF	91.6%	93.2%	94.6%
-InternImage‑L	88.0%	89.5%	90.3%
-Rare‑class F1 improvement: +20% over real‑only training.
+| Backbone       | Real‑Only | Naïve Mixing | DSG (Ours) |
+|----------------|-----------|--------------|------------|
+| ConvNeXtV2     | 90.2%     | 91.4%        | **92.1%**  |
+| DINOv3 + MSAF  | 91.6%     | 93.2%        | **94.6%**  |
+| InternImage‑L  | 88.0%     | 89.5%        | **90.3%**  |
 
-DSG consistently outperforms static synthetic–real mixing across all architectures.
+- Rare‑class F1 improvement: **+20%** over real‑only training.
+- DSG consistently outperforms static synthetic–real mixing across all architectures.
 
-##📝 Citation
+---
+
+## 📝 Citation
+
 If you find this code useful for your research, please cite our paper:
-```
-bibtex
+
+```bibtex
 @article{ayalew2025decaying,
   title={Decaying Synthetic Guidance and Multi-Scale Adaptive Fusion for Long-Tailed Microfossil Classification},
   author={Ayalew, Amogne Andualem and Shawon, MD Yahia and Arsalan, Muhammad and Zhang, Zhengde and Qi, Fazhi},
@@ -141,7 +146,16 @@ bibtex
 }
 📄 License
 This project is licensed under the MIT License – see the LICENSE file for details.
-```
+
+text
+
+**Key fixes:**
+- Added `## 📊 Results` with a space after `##`.
+- Formatted the table correctly with `|` pipes.
+- Added proper spacing between sections.
+- Kept the BibTeX inside a fenced code block with ` ```bibtex `.
+
+Replace your current **Results**, **Citation**, and **License** sections with the above. After saving and pushing, they will display correctly on GitHub.
 
 ##🙏 Acknowledgments
 This work was supported by the UCAS‑IHEP Computing Center and the High Energy Physics Artificial Intelligence platform (HepAI). We thank all contributors for providing computational resources and technical support.
