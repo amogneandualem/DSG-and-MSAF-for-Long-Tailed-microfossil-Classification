@@ -71,10 +71,10 @@ A GPU with at least 24 GB memory is recommended for training and synthetic image
 ## 🚀 Usage
 1. Synthetic Image Generation
 Run the FLUX generation script:
-
-bash
+```
 cd "Data processing and Clip model validation."
 python flux_A800_final.py
+```
 What this script does:
 
 Loads real images from a specified class.
@@ -88,9 +88,10 @@ Saves raw synthetic images to an output folder.
 2. CLIP Filtering
 Open and run the Jupyter notebook:
 
-bash
+```
 cd "Data processing and Clip model validation."
 jupyter notebook clip_evaluation.ipynb
+```
 The notebook:
 
 Computes text‑to‑image similarity (with class prompts) and image‑to‑image similarity (with real images) using a CLIP ViT‑B/32 model.
@@ -101,10 +102,10 @@ Moves accepted images to a curated training folder.
 
 3. Training with DSG and MSAF
 Train the DINOv3 backbone with MSAF and DSG:
-
-bash
+```
 cd "Model Training/DINOV3/MSAF_DSG_FINAL."
 python train_dinov3_msaf_dsg_final.py
+```
 Key features:
 
 Uses a pretrained DINOv3 ViT‑B/14 backbone.
@@ -117,7 +118,7 @@ Mini‑batches contain 50% real and 50% curated synthetic images.
 
 Logs and checkpoints are saved to logs/ and saved_models/ (excluded from Git).
 
-📊 Results
+##📊 Results
 Backbone	Real‑Only	Naïve Mixing	DSG (Ours)
 ConvNeXtV2	90.2%	91.4%	92.1%
 DINOv3 + MSAF	91.6%	93.2%	94.6%
@@ -126,9 +127,9 @@ Rare‑class F1 improvement: +20% over real‑only training.
 
 DSG consistently outperforms static synthetic–real mixing across all architectures.
 
-📝 Citation
+##📝 Citation
 If you find this code useful for your research, please cite our paper:
-
+```
 bibtex
 @article{ayalew2025decaying,
   title={Decaying Synthetic Guidance and Multi-Scale Adaptive Fusion for Long-Tailed Microfossil Classification},
@@ -139,13 +140,13 @@ bibtex
 }
 📄 License
 This project is licensed under the MIT License – see the LICENSE file for details.
+```
 
-🙏 Acknowledgments
+##🙏 Acknowledgments
 This work was supported by the UCAS‑IHEP Computing Center and the High Energy Physics Artificial Intelligence platform (HepAI). We thank all contributors for providing computational resources and technical support.
 
-📬 Contact
+##📬 Contact
 For questions or issues, please open an issue on GitHub or contact:
 
-Amogne Andualem Ayalew – amogne.ayalew@hepai.org.cn
+Amogne Andualem Ayalew – amogneandualem@gmail.com
 
-Zhengde Zhang – zhangzhengde@ihep.ac.cn
