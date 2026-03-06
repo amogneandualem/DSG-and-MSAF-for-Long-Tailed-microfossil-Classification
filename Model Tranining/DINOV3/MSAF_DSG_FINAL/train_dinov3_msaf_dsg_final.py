@@ -285,7 +285,7 @@ def load_checkpoint(model, ema_model, optimizer, scheduler):
 start_epoch, best_val = load_checkpoint(model, ema_model, optimizer, scheduler)
 no_improve = 0
 
-print("\n🚀 Starting training...\n")
+print("\n Starting training...\n")
 
 for epoch in range(start_epoch, EPOCHS+1):
 
@@ -363,13 +363,13 @@ for epoch in range(start_epoch, EPOCHS+1):
         print("⏹ Early stopping triggered.")
         break
 
-print(f"\n🏁 Best Validation Accuracy: {best_val:.2f}%")
+print(f"\n  Best Validation Accuracy: {best_val:.2f}%")
 
 if test_loader:
     best_state = torch.load(BEST_MODEL_PATH, map_location=DEVICE)
     ema_model.module.load_state_dict(best_state)
     test_acc, test_loss = evaluate(ema_model, test_loader)
-    print(f"🧪 Test Accuracy: {test_acc:.2f}% | Test Loss: {test_loss:.4f}")
+    print(f"  Test Accuracy: {test_acc:.2f}% | Test Loss: {test_loss:.4f}")
     with open(os.path.join(SAVE_ROOT, 'test_results.json'), 'w') as f:
         json.dump({'test_acc': test_acc, 'test_loss': test_loss}, f)
 
