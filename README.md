@@ -35,7 +35,6 @@ Our framework achieves up to **94.6% accuracy** on a radiolarian microfossil dat
 └── README.md # This file
 ```
 
----
 
 ## ⚙️ Requirements
 
