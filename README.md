@@ -147,14 +147,20 @@ bibtex
   note={submitted}
 }
 ```
-##📄 License
-This project is licensed under the MIT License – see the LICENSE file for details.
+## 📄 License
 
-##🙏 Acknowledgments
+This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🙏 Acknowledgments
+
 This work was supported by the UCAS‑IHEP Computing Center and the High Energy Physics Artificial Intelligence platform (HepAI). We thank all contributors for providing computational resources and technical support.
 
-##📬Contact
+---
+
+## 📬 Contact
+
 For questions or issues, please open an issue on GitHub or contact:
 
-Amogne Andualem Ayalew – amogneandualem@gmail.com
-
+- **Amogne Andualem Ayalew** – amogneandualem@gmail.com
